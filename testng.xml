@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MDI Task Tests">
+    <test verbose="2" preserve-order="true" name="Task Automation">
+        <classes>
+            <class name="Amazon.scenario1.TC_1LoginTest">
+            <methods>
+            <include name="goToSignInPage"/>
+            </methods>
+        </class>
+            <class name="Amazon.scenario2.TC_1HomeTest">
+                <methods>
+                    <include name="goToTodayDeals"/>
+                </methods>
+            </class>
+            <class name="Amazon.scenario2.TC_2TodayDealsTest">
+                <methods>
+                    <include name="addProduct"/>
+                </methods>
+            </class>
+            <class name="Amazon.scenario2.TC_3ItemsTest">
+                <methods>
+                <include name="addItem"/>
+            </methods>
+            </class>
+            <class name="Amazon.scenario2.TC_4QuantityTest">
+                <methods>
+                    <include name="selectQuantity"/>
+                </methods>
+            </class>
+            <class name="Amazon.scenario2.TC_5CartTest">
+                <methods>
+                <include name="addedToCart"/>
+            </methods>
+            </class>
+            <class name="Amazon.scenario2.TC_6SubmitOrderTest">
+                <methods>
+                <include name="checkItemsInformation"/>
+            </methods>
+            </class>
+            <class name="Amazon.scenario3.TC_1YourOrdersTest">
+                <methods>
+                <include name="actionOrders"/>
+            </methods>
+            </class>
+            <class name="Amazon.scenario3.TC_2YourAddressesTest">
+                <methods>
+                <include name="actionOrders"/>
+                </methods>
+            </class>
+            <class name="Amazon.scenario3.TC_3YourListsTest">
+                <methods>
+                    <include name="actionLists"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
