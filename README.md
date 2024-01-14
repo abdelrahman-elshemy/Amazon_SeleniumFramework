@@ -36,6 +36,9 @@
   <img width="921" alt="allure" src="https://github.com/youssefm2000/Shop_SeleniumFramework/assets/74185165/ece583ca-c2af-4c28-a1a8-8d5b76f7e784">
   <img width="921" alt="allure" src="https://github.com/youssefm2000/Shop_SeleniumFramework/assets/74185165/4450b62b-67c3-4739-a098-9ee41d9b0fb3">
 
+  ### 🚀 For Watching Running Test Cases:
+  https://youtu.be/sbsLdkFI2Ds
+
 
 
 
