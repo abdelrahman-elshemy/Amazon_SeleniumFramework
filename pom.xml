@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>MDIAutomationTask</artifactId>
+  <artifactId>_VoisTask</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
@@ -16,6 +16,14 @@
   </properties>
 
   <dependencies>
+
+    <dependency>
+      <groupId>org.bytedeco</groupId>
+      <artifactId>tesseract</artifactId>
+      <version>5.3.4-1.5.10</version>
+    </dependency>
+
+
 
     <dependency>
       <groupId>org.testng</groupId>

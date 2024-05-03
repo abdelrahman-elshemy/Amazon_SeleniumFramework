@@ -8,47 +8,47 @@
             <include name="goToSignInPage"/>
             </methods>
         </class>
-            <class name="Amazon.scenario2.TC_1HomeTest">
+            <class name="Amazon.scenario1.TC_1SearchTest">
                 <methods>
                     <include name="goToTodayDeals"/>
                 </methods>
             </class>
-            <class name="Amazon.scenario2.TC_2TodayDealsTest">
+            <class name="Amazon.scenario1.TC_2SelectTest">
                 <methods>
                     <include name="addProduct"/>
                 </methods>
             </class>
-            <class name="Amazon.scenario2.TC_3ItemsTest">
+            <class name="Amazon.scenario1.TC_3ItemsTest">
                 <methods>
                 <include name="addItem"/>
             </methods>
             </class>
-            <class name="Amazon.scenario2.TC_4QuantityTest">
+            <class name="Amazon.scenario1.TC_4QuantityTest">
                 <methods>
                     <include name="selectQuantity"/>
                 </methods>
             </class>
-            <class name="Amazon.scenario2.TC_5CartTest">
+            <class name="Amazon.scenario1.TC_5CartTest">
                 <methods>
                 <include name="addedToCart"/>
             </methods>
             </class>
-            <class name="Amazon.scenario2.TC_6SubmitOrderTest">
+            <class name="Amazon.scenario1.TC_6SubmitOrderTest">
                 <methods>
                 <include name="checkItemsInformation"/>
             </methods>
             </class>
-            <class name="Amazon.scenario3.TC_1YourOrdersTest">
+            <class name="Amazon.scenario2.TC_1YourOrdersTest">
                 <methods>
                 <include name="actionOrders"/>
             </methods>
             </class>
-            <class name="Amazon.scenario3.TC_2YourAddressesTest">
+            <class name="Amazon.scenario2.TC_2YourAddressesTest">
                 <methods>
                 <include name="actionOrders"/>
                 </methods>
             </class>
-            <class name="Amazon.scenario3.TC_3YourListsTest">
+            <class name="Amazon.scenario2.TC_3YourListsTest">
                 <methods>
                     <include name="actionLists"/>
                 </methods>
